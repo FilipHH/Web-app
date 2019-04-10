@@ -1,0 +1,23 @@
+<html>
+  <head>
+  	<title>Notat app</title>
+  	<link rel="stylesheet" type="text/css" href="../static/css/TestDesign.css">
+  </head>
+  <body>
+  	<div class="topp">    
+  		<h1>Notat app</h1>
+  		<img src="https://cdn2.iconfinder.com/data/icons/business-and-internet/512/Note-512.png" alt="Pen on paper" width="100" height="100">
+  	</div>
+    <div class="mid">	
+    	<div class="side">
+    		<a href="../notater" class="notat">Notater</a>
+    		<button class="lag-ny" onclick="create()">Lag ny</button>	
+    	</div>
+    	<input id="title" type="text">
+    	<textarea id="content" type="text"></textarea>
+    	<input class="send" type="submit" value="Lagre" onclick="update()">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
+  </body>
+</html>

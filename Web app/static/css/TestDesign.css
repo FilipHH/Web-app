@@ -1,0 +1,137 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif !important;}
+.topp{
+	text-align: center;
+	color: black;
+	font-size: 30px;
+}	
+img {
+	margin-right: 1200px;
+	position: absolute;
+	top: 7px;
+	left: 20px;
+}
+h1 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #C0C0C0;
+	font-size: 24px;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+}
+.mid{
+	font-size: 20px;
+	text-align: center;
+}
+form {
+	margin-top: 75px;
+}
+.submit {
+  display:block;
+}
+.side{
+	list-style-type: none;
+  padding-left: 15px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: gray;
+ 	display: inline-block;
+ 	position: relative;
+  display: inline-block;
+  width: 100%;
+}
+/*.hjem{
+	background-color: gray;
+  color: black;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  outline: none;	
+}
+.hjem:hover{
+	background-color: dimgray;
+	outline: none;
+}*/
+.lag-ny {
+  background-color: gray;
+  color: black;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Inter', Times;
+}
+.lag-ny:hover{
+  background-color: dimgray;
+}
+.notat {
+  background-color: gray;
+  color: black;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Inter', Times; 
+}
+.notat:hover {
+  background-color: dimgray;
+}
+#title {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 2px solid white;
+  border-radius: 20px;
+  outline: none;
+}
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid white;
+  border-radius: 20px;
+  outline: none;
+  resize: none;
+}
+.send {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 2px solid gray;
+  border-radius: 20px;
+  background-color: gray;
+  font-size: 20px;
+  outline: none;
+  font-family: 'Inter', Times;
+}
+.send:hover{
+	background-color: dimgray;
+	cursor: pointer;
+}
+.notater{
+  background-color: silver;
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Inter', Times;
+  list-style: none;
+  width: 150px;
+  margin: 0 auto;
+}
+.notater:hover{
+  background-color: gray;
+}
